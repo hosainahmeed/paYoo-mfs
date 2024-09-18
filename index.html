@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start Practice</title>
+    <title>paYoo || MFS</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    
+
+<body class="bg-[#F4F5F7]">
+    <div class="flex items-center justify-center h-screen ">
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+                <div class="hero bg-base-200 min-h-screen">
+                    <div class="hero-content flex-col">
+                        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                            <form class="card-body">
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="label-text text-black font-bold">Mobile number</span>
+                                    </label>
+                                    <input id="mobile-number" type="text" placeholder="Enter your number" class="input input-bordered"
+                                        required />
+                                </div>
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="label-text text-black font-bold">4 Digit Pin</span>
+                                    </label>
+                                    <input id="pin-number" type="password" placeholder="Enter 4 Digit Pin"
+                                        class="input input-bordered" required autocomplete="off" />
+                                </div>
+                                <div class="form-control mt-6">
+                                    <input id="btn-Login" type="submit" value="Login"
+                                        class="bg-[#0874F2] py-3 rounded-3xl text-white font-bold">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/js/login.js"></script>
 </body>
+
 </html>
